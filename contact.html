@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Bean &amp; Batch Roastery</title>
+  <meta name="description" content="Find Bean & Batch Roastery's café locations, hours, and contact details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Bean &amp; Batch</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰ Menu</button>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Menu &amp; Beans</a></li>
+          <li><a href="enquiry.html">Enquire</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" style="padding-bottom:4rem;">
+      <div class="container">
+        <p class="eyebrow">Visit us</p>
+        <h1>Two roasteries, one standard.</h1>
+        <p class="lede">Come sit in for a cup, or pop in to grab beans to go. Both locations pour the same coffee.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Main Roastery &amp; Café — Rosebank</h3>
+            <ul class="info-list">
+              <li>14 Baker Street, Rosebank</li>
+              <li>Mon–Fri: 07:00 – 16:00</li>
+              <li>Sat: 08:00 – 14:00 · Sun: Closed</li>
+              <li>Tel: 011 555 0182</li>
+            </ul>
+            <div class="map-embed">
+              <iframe title="Map showing Rosebank location" src="https://maps.google.com/maps?q=Rosebank%20Johannesburg&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Second Café — Melville</h3>
+            <ul class="info-list">
+              <li>52 7th Street, Melville</li>
+              <li>Mon–Fri: 07:30 – 15:30</li>
+              <li>Sat: 08:00 – 13:00 · Sun: Closed</li>
+              <li>Tel: 011 555 0490</li>
+            </ul>
+            <div class="map-embed">
+              <iframe title="Map showing Melville location" src="https://maps.google.com/maps?q=Melville%20Johannesburg&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Prefer to write?</p>
+          <h2>Send us a message</h2>
+        </div>
+        <form data-confirm novalidate>
+          <div class="form-row">
+            <label for="c-name">Full name <span class="required">*</span></label>
+            <input type="text" id="c-name" name="c-name" required>
+          </div>
+          <div class="form-row">
+            <label for="c-email">Email address <span class="required">*</span></label>
+            <input type="email" id="c-email" name="c-email" required>
+          </div>
+          <div class="form-row">
+            <label for="c-location">Which café is this about?</label>
+            <select id="c-location" name="c-location">
+              <option value="">No preference</option>
+              <option value="rosebank">Rosebank</option>
+              <option value="melville">Melville</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="c-message">Message <span class="required">*</span></label>
+            <textarea id="c-message" name="c-message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Bean &amp; Batch Roastery</h4>
+          <p>Small-batch specialty coffee, roasted weekly and served with care.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Menu &amp; Beans</a></li>
+            <li><a href="enquiry.html">Enquire</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bean &amp; Batch Roastery. All rights reserved.</span>
+        <span>Student project — WEDE5020 POE</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
