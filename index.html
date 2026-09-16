@@ -31,12 +31,25 @@
   <main id="main">
     <section class="hero">
       <div class="container">
-        <p class="eyebrow">Roasted weekly in small batches</p>
-        <h1>Coffee, roasted with intent.</h1>
-        <p class="lede">Bean &amp; Batch Roastery sources single-origin beans directly from farmers, roasts them in batches under 12kg, and pours them fresh in our café. Come sit with a cup, or take a bag home.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="products.html">Explore our beans</a>
-          <a class="btn btn-outline" href="contact.html">Find our café</a>
+        <div class="grid grid-2" style="align-items:center; gap:2.5rem;">
+          <div>
+            <p class="eyebrow">Roasted weekly in small batches</p>
+            <h1>Coffee, roasted with intent.</h1>
+            <p class="lede">Bean &amp; Batch Roastery sources single-origin beans directly from farmers, roasts them in batches under 12kg, and pours them fresh in our café. Come sit with a cup, or take a bag home.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="products.html">Explore our beans</a>
+              <a class="btn btn-outline" href="contact.html">Find our café</a>
+            </div>
+          </div>
+          <div class="hero-figure">
+            <figure class="responsive-figure">
+              <picture>
+                <source media="(max-width: 760px)" srcset="images/hero-coffee-480.jpg 480w, images/hero-coffee-800.jpg 800w" sizes="100vw">
+                <source media="(min-width: 761px)" srcset="images/hero-coffee-800.jpg 800w, images/hero-coffee-1200.jpg 1200w" sizes="50vw">
+                <img src="images/hero-coffee-800.jpg" alt="Barista pouring a fresh cup of filter coffee at the Bean & Batch counter" loading="lazy" width="800" height="500">
+              </picture>
+            </figure>
+          </div>
         </div>
       </div>
     </section>
@@ -120,3 +133,4 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+
