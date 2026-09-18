@@ -99,8 +99,9 @@ widths, representing the three breakpoints defined in `css/style.css`:
 - Tablet — 820px (iPad) and 1024px
 - Mobile — 375px (iPhone) and 360px (Android)
 
-*(Add your screenshots for each width here before submission — drag them
-into this README on GitHub, or embed with `![description](images/screenshot-name.png)`.)*
+![Desktop view](images/screenshot-desktop.png)
+![Tablet view](images/screenshot-tablet.png)
+![Mobile view](images/screenshot-mobile.png)
 
 ## References
 References used for this document and general project research are compiled
